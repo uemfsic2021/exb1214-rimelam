@@ -5,7 +5,7 @@ public class Principal
 	
 		if ( args.length == 1 )
 		{
-			String motAverifier = args[0] ; // args[0] correspond a l'argument 2 de la commande java
+			String motAverifier = args[0] ; 
 		
 			boolean isPalindrome = Palindrome.is_palindrome(motAverifier) ;
 		
